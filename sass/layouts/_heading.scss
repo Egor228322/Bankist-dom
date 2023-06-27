@@ -1,0 +1,41 @@
+.heading {
+
+    display: grid;
+    margin: 0 auto;
+    max-width: 115rem;
+    gap: 3rem;
+    grid-template-columns: 3fr 2fr;
+    grid-template-rows: 1fr 3rem 3rem;
+    padding: 5rem 7rem;
+    
+    &__title-header {
+        font-size: 5rem;
+        color: #333;
+    }
+
+    &__title-span {
+
+    }
+
+    &__composition {
+        grid-row: span 3;
+    }
+
+    &__img {
+        width: 100%;
+        height: auto;
+    }
+
+    &__paragraph {
+        grid-column: span 2;
+    }
+
+    &__button {
+
+    }
+
+    &__link {
+
+    }
+
+}
