@@ -11,11 +11,17 @@ body {
   font-family: 'Poppins', sans-serif;
   color: #444; }
 
-.header {
-  display: flex;
-  height: 100vh;
-  flex-direction: column;
-  padding-inline: 3rem; }
+.title {
+  max-width: 80rem;
+  margin: 0 auto 8rem auto; }
+
+.heading__secondary {
+  color: #5ec576;
+  font-size: 2rem;
+  font-weight: 600; }
+
+.heading__tertiary {
+  font-size: 3.5rem; }
 
 .nav {
   padding: 0 6rem;
@@ -102,6 +108,94 @@ body {
     font-weight: 500;
     border-bottom: 1px solid #5ec576; }
 
+.features {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: repeat(3, 1fr);
+  gap: 4rem;
+  margin: 0 auto; }
+  .features__img {
+    width: 100%; }
+  .features__description {
+    padding: 3rem; }
+  .features__icon {
+    padding: 2rem;
+    background-color: #5ec5763a;
+    border-radius: 50%;
+    color: #5ec576;
+    width: 2.4rem;
+    height: 2.4rem; }
+  .features__title {
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+    font-size: 1.7rem;
+    font-weight: 600;
+    letter-spacing: 0.2px; }
+  .features__text {
+    font-size: 1.3rem;
+    color: #777;
+    line-height: 2; }
+
+.operations {
+  max-width: 100rem;
+  margin: 0 auto; }
+  .operations__tab--container {
+    display: flex;
+    gap: 5rem;
+    justify-content: center;
+    background-color: white; }
+  .operations__tab {
+    padding: 1rem 4rem;
+    font-size: 1.7rem;
+    color: black;
+    border-radius: 50rem;
+    transform: translateY(-50%); }
+    .operations__tab--number {
+      font-weight: 600; }
+    .operations__tab--1 {
+      background-color: #ffcb03; }
+    .operations__tab--2 {
+      background-color: #5ec576; }
+    .operations__tab--3 {
+      background-color: #ff585f; }
+  .operations__content {
+    background-color: white;
+    padding: 2.5rem 7rem 6.5rem 7rem;
+    row-gap: .5rem;
+    column-gap: 3rem;
+    align-items: center;
+    display: grid; }
+  .operations__icon {
+    padding: 2rem;
+    height: 3rem;
+    width: 3rem;
+    border-radius: 50%;
+    grid-column: 1; }
+    .operations__icon--1 {
+      color: #ffcb03;
+      background-color: #ffcd0331; }
+  .operations__title {
+    font-size: 2.25rem;
+    font-weight: 500;
+    grid-column: 2; }
+  .operations__text {
+    font-size: 1.7rem;
+    color: #666;
+    line-height: 1.8;
+    grid-column: 2;
+    grid-row: 2; }
+
 .header {
+  display: flex;
   height: 100vh;
-  display: flex; }
+  flex-direction: column;
+  padding-inline: 3rem; }
+
+.container {
+  margin: 0 auto;
+  max-width: 115rem; }
+
+.section {
+  border-top: 1px solid #77777757;
+  padding: 15rem 3rem;
+  transition: all 0.3s; }

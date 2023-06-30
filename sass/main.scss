@@ -2,8 +2,11 @@
 
 @import "base/base";
 
-@import "layouts/heading";
+@import "components/title";
+
 @import "layouts/navigation";
 @import "layouts/hero";
+@import "layouts/features";
+@import "layouts/operations";
 
 @import "pages/home";

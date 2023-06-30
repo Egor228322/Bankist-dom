@@ -1,0 +1,17 @@
+.title {
+    max-width: 80rem;
+    margin: 0 auto 8rem auto;
+}
+
+.heading {
+
+    &__secondary {
+        color: $color-primary;
+        font-size: 2rem;
+        font-weight: 600;
+    }
+
+    &__tertiary {
+        font-size: 3.5rem;
+    }
+}
