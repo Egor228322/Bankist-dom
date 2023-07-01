@@ -1,0 +1,92 @@
+.slider {
+
+
+    margin: 0 auto;
+    max-width: 100rem;
+    height: 50rem;
+    display: flex;
+}
+
+.testimonial {
+
+    width: 65%;
+    position: relative;
+
+    &__icon {
+        position: absolute;
+        height: 3.5rem;
+        width: 3.5rem;
+        top: -5rem;
+        left: -12rem;
+        background-color: $color-primary-opacity;
+        color: $color-primary;
+        padding: 3rem;
+        border-radius: 50%;
+    }
+
+}
+
+.slide {
+
+    height: 50rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+
+    &__title {
+        font-size: 2.25rem;
+        font-weight: 500;
+        margin-bottom: 2rem;
+    }
+
+    &__blockquote {
+        font-size: 1.7rem;
+        color: #666;
+        font-weight: 300;
+        line-height: 1.8;
+        margin-bottom: 4rem;
+    }
+
+    &__description {
+        display: grid;
+        column-gap: 2rem;
+        margin-left: 3rem;
+        grid-template-columns: 6.5rem 1fr;
+    }
+
+    &__img {
+        border-radius: 50%;
+        width: 6.5rem;
+        grid-column: 1;
+        grid-row: 1 / span 2;
+    }
+
+    &__description-name {
+        grid-column: 2;
+        font-size: 1.7rem;
+        font-weight: 500;
+        align-self: end;
+    }
+
+    &__description-location {
+        font-size: 1.5rem;
+        color: #666;
+    }
+
+}
+
+.btn__slider {
+
+    position: absolute;
+    border: none;
+    background-color: none;
+
+    &-right {
+
+    }
+
+    &-left {
+
+    }
+}

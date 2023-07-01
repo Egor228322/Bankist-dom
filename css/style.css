@@ -185,6 +185,65 @@ body {
     grid-column: 2;
     grid-row: 2; }
 
+.slider {
+  margin: 0 auto;
+  max-width: 100rem;
+  height: 50rem;
+  display: flex; }
+
+.testimonial {
+  width: 65%;
+  position: relative; }
+  .testimonial__icon {
+    position: absolute;
+    height: 3.5rem;
+    width: 3.5rem;
+    top: -5rem;
+    left: -12rem;
+    background-color: #5ec5763a;
+    color: #5ec576;
+    padding: 3rem;
+    border-radius: 50%; }
+
+.slide {
+  height: 50rem;
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+  .slide__title {
+    font-size: 2.25rem;
+    font-weight: 500;
+    margin-bottom: 2rem; }
+  .slide__blockquote {
+    font-size: 1.7rem;
+    color: #666;
+    font-weight: 300;
+    line-height: 1.8;
+    margin-bottom: 4rem; }
+  .slide__description {
+    display: grid;
+    column-gap: 2rem;
+    margin-left: 3rem;
+    grid-template-columns: 6.5rem 1fr; }
+  .slide__img {
+    border-radius: 50%;
+    width: 6.5rem;
+    grid-column: 1;
+    grid-row: 1 / span 2; }
+  .slide__description-name {
+    grid-column: 2;
+    font-size: 1.7rem;
+    font-weight: 500;
+    align-self: end; }
+  .slide__description-location {
+    font-size: 1.5rem;
+    color: #666; }
+
+.btn__slider {
+  position: absolute;
+  border: none;
+  background-color: none; }
+
 .header {
   display: flex;
   height: 100vh;
